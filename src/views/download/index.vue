@@ -16,6 +16,8 @@
     color: #fff;
     font-size: 30px;
     text-align: center;
+    border-radius: 8px;
+    background-color: #2A6BE2;
   }
 }
 </style>

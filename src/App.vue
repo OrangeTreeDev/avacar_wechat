@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+<div id="app">
     <router-view/>
   </div>
 </template>
@@ -25,7 +25,7 @@ form,label,table,tbody,tr,th,td,
 input, button {
     margin: 0;
     padding: 0;
-    border: 0
+    border: 0;
 }
 body {
     font-size: 32px;
@@ -59,5 +59,26 @@ textarea, input[type="password"], input[type="text"], button {
     content: "";
     visibility: hidden;
     height: 0;
+}
+
+#app {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./assets/background.png');
+  background-size: 100% 100%;
+}
+@media (device-width: 375px) and (device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #app {
+  position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./assets/background_x.png');
+    background-size: 100% 100%;
+  }
 }
 </style>

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 // import HelloWorld from '@/components/HelloWorld';
-import Download from '@/views/download';
+import Download from '@/views/download/index';
 
 Vue.use(Router);
 
